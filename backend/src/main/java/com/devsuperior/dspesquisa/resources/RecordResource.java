@@ -20,6 +20,7 @@ import com.devsuperior.dspesquisa.dto.RecordInsertDTO;
 import com.devsuperior.dspesquisa.services.RecordService;
 
 //ESSA CLASSE TEM DEPENDENCIA PARA SERVICES
+//controlador de voto do usuário e de relatório do cliente
 @RestController
 @RequestMapping(value = "/records")
 public class RecordResource {

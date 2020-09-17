@@ -12,6 +12,7 @@ import com.devsuperior.dspesquisa.dto.GameDTO;
 import com.devsuperior.dspesquisa.services.GameService;
 
 //ESSA CLASSE TEM DEPENDENCIA PARA SERVICES
+//controlador do list para o usuário escolher o game
 @RestController
 @RequestMapping(value = "/games")
 public class GameResource {
